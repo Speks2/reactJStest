@@ -1,0 +1,8 @@
+.navbarStyle {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(210, 210, 210);
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+}
