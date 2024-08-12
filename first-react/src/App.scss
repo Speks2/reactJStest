@@ -5,6 +5,25 @@
   text-align: center;
 }
 
+body {
+  box-sizing: border-box;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  * {
+    margin: 0;
+  }
+  
+  p  {
+    color: white;
+  }
+}
+
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
